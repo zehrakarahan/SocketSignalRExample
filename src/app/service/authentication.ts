@@ -8,6 +8,7 @@ import {UserModel} from "../model/UserModel";
 })
 export class Authentication {
 
+
   private apiUrl = 'http://localhost:5093/api/Home'; // .NET Core API URL'niz
 
   constructor(private http: HttpClient) { }
